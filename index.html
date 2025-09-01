@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- /header section start -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./pic/logo 2.png" alt="logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">NEWS</a></li>
+
+        </ul>
+<button class="ct-button">get in touch</button>
+    </nav>
+    <!-- end section of header -->
+      
+    <!-- start of banner -->
+
+ <div class="hero-container">
+        <div class="background">
+            <img src="./pic/banner.jpg" alt="compay image"></div>
+        
+        <div class="content-overlay">
+            <div class="text-sequence">
+                <div class="text-item">
+                    <h1 class="main-title">WELCOME TO</h1>
+                    <h2 class="subtitle highlight">A NEW ERA</h2>
+                    <h3 class="subtitle">IN CONSTRUCTION</h3>
+                </div>
+                
+                <div class="text-item">
+                    <h1 class="main-title">BUILDING THE</h1>
+                    <h2 class="subtitle highlight">FUTURE TODAY</h2>
+                    <h3 class="subtitle">WITH INNOVATION</h3>
+                </div>
+                
+                <div class="text-item">
+                    <img src="./pic/hand.jpg" alt="" class="project-image">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <main class="wrap">
+    <header>
+      <h1>Get in Touch</h1>
+      <p>Fill this form and we’ll get back within one business day.</p>
+    </header>
+
+    <section class="card">
+      <form action="/thank-you" method="post" novalidate>
+        <div class="grid">
+          <div class="field">
+            <label for="full_name">Full name</label>
+            <input id="full_name" name="full_name" type="text" placeholder="Ada Lovelace"
+                   autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="ada@example.com"
+                   autocomplete="email" inputmode="email" required />
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210"
+                   autocomplete="tel" inputmode="tel"
+                   pattern="^[+()\- \d]{7,}$"
+                   title="Enter a valid phone number" />
+            <div class="hint">Use country code if outside India.</div>
+          </div>
+
+          <div class="field">
+            <label for="role">I am a…</label>
+            <select id="role" name="role" required>
+              <option value="" disabled selected>Select one</option>
+              <option>Student</option>
+              <option>Professional</option>
+              <option>Founder</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <fieldset>
+          <legend class="sr-only">Project type</legend>
+          <label>Project type</label>
+          <div class="choices" role="group" aria-label="Project type">
+            <label><input type="radio" name="ptype" value="website" required /> Website</label>
+            <label><input type="radio" name="ptype" value="app" /> Mobile App</label>
+            <label><input type="radio" name="ptype" value="brand" /> Branding</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="sr-only">Extras</legend>
+          <label>Extras</label>
+          <div class="choices" role="group" aria-label="Extras">
+            <label><input type="checkbox" name="extras_seo" /> SEO</label>
+            <label><input type="checkbox" name="extras_copy" /> Copywriting</label>
+            <label><input type="checkbox" name="extras_host" /> Hosting</label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="budget">Estimated budget</label>
+          <select id="budget" name="budget" autocomplete="off" required>
+            <option value="" disabled selected>Select a range</option>
+            <option value="under50k">Under ₹50,000</option>
+            <option value="50-200k">₹50,000 – ₹200,000</option>
+            <option value="200-500k">₹200,000 – ₹500,000</option>
+            <option value="500k+">₹500,000+</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" placeholder="What are you building and when do you want to launch?" required></textarea>
+        </div>
+
+        <div class="field">
+          <label for="brief">Attach a brief (optional)</label>
+          <input id="brief" name="brief" type="file" accept=".pdf,.doc,.docx,.txt" />
+          <div class="hint">Max 10MB. PDF preferred.</div>
+        </div>
+
+        <div class="actions">
+          <button type="submit">Submit</button>
+          <button type="reset" class="secondary">Reset</button>
+          <span class="hint">By submitting, you agree to our <a href="#">terms</a>.</span>
+        </div>
+      </form>
+      <p class="footer-note">We respect your privacy. We’ll never share your data.</p>
+    </section>
+  </main>
+
+
+    <footer>
+        <div class="tainer">
+    <h1 class="dual-color-heading">Our Services</h1>
+    <p>Clean split gradient clipped to the text.</p>
+  </div>
+
+  <!-- Clients Section -->
+  <section class="clients">
+    <h2>Clients</h2>
+    <div class="clients-logos">
+      <img src="/pic/mr.jpg" alt="Acciona">
+
+      <img src="./pic/rd.jpg" alt="Seymour Whyte">
+      <img src="./pic/rp.jpg" alt="Laing O'Rourke">
+      <img src="/pic/rr.png" alt="NECR">
+      <img src="./pic/rv.png" alt="UGL">
+      <img src="./pic/logo 2.png" alt="BMD">
+    </div>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        Welcome to Arcon Civil, where expertise and innovation blend seamlessly
+        to achieve excellence across both project consulting and delivery.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="./pic/about.jpg" alt="Construction site">
+    </div>
+  </section>
+    </footer>
+
+
+
+
+</body>
+</html>
