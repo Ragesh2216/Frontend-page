@@ -271,7 +271,7 @@ Or if you want only the hero section (first banner with text and image) to move 
   }
 
   .hero {
-    margin-top: 100px; /* adjust depending on navbar height in mobile */
+    margin-top: 80px; /* adjust depending on navbar height in mobile */
   }
 
             .main-title {
@@ -288,7 +288,11 @@ Or if you want only the hero section (first banner with text and image) to move 
         }
 
         /* Mobile Landscape (576px - 767px) */
-        @media (max-width: 767px) and (min-width: 576px) {
+        @media (max-width: 767px) and (min-width: 576px) { @media (max-width: 768px) {
+  .hero {
+    margin-top: 100px; /* adjust depending on navbar height in mobile */
+  }
+}
             .main-title {
                 font-size: 2.2rem;
                 letter-spacing: 0.06em;
@@ -633,5 +637,6 @@ Or if you want only the hero section (first banner with text and image) to move 
     a{ color: var(--primary); text-decoration: none; }
 
     a:hover{ text-decoration: underline; }
+
 
 
