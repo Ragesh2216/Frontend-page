@@ -4,8 +4,11 @@
 }
 body{
     background-color: rgb(245, 242, 238);
-    overflow-x: hidden;
-}
+    overflow-x: hidden;}
+.hero {
+  margin-top: 70px; /* Equal to navbar height */
+    }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -241,7 +244,39 @@ body{
         }
 
         /* Tablet (768px - 991px) */
-        @media (max-width: 991px) and (min-width: 768px) {
+        @media (max-width: 991px) and (min-width: 768px) { Got it 👍 — in this screenshot your navbar is fixed but the content (your banner image + text) is still sliding underneath it.
+
+This happens because the fixed navbar takes up space visually but does not push down the page content. You need to give your first section a top margin or padding equal to the navbar’s height.
+
+
+---
+
+🔧 Fix in CSS
+
+If your navbar height is around 70px (adjust if different):
+
+body {
+  padding-top: 70px; /* Pushes all content below navbar */
+}
+
+Or if you want only the hero section (first banner with text and image) to move down:
+
+.hero {
+  margin-top: 70px; /* Equal to navbar height */
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 80px; /* or adjust to your navbar’s height */
+  }
+}
+
+
+---
+
+👉 Question: Do you want me to help you adjust it globally (works for all screen sizes), or just for mobile view?
+
+
             .main-title {
                 font-size: 3rem;
                 letter-spacing: 0.08em;
@@ -601,3 +636,4 @@ body{
     a{ color: var(--primary); text-decoration: none; }
 
     a:hover{ text-decoration: underline; }
+
