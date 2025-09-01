@@ -269,13 +269,10 @@ Or if you want only the hero section (first banner with text and image) to move 
   body {
     padding-top: 80px; /* or adjust to your navbar’s height */
   }
-}
 
-
----
-
-👉 Question: Do you want me to help you adjust it globally (works for all screen sizes), or just for mobile view?
-
+  .hero {
+    margin-top: 100px; /* adjust depending on navbar height in mobile */
+  }
 
             .main-title {
                 font-size: 3rem;
@@ -636,4 +633,5 @@ Or if you want only the hero section (first banner with text and image) to move 
     a{ color: var(--primary); text-decoration: none; }
 
     a:hover{ text-decoration: underline; }
+
 
