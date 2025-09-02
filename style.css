@@ -99,7 +99,7 @@ body {
   width: 100%;
   height: 80%;
   background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
-              url('./pic/banner.jpg') center/cover no-repeat;
+              url('banner.jpg') center/cover no-repeat;
   animation: fadeInOut 6s ease-in-out infinite;
   z-index: 0;
 }
@@ -227,7 +227,7 @@ body {
      width: 100%;
   height: 80%;
   background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
-              url('./pic/banner.jpg') center/cover no-repeat;
+              url('banner.jpg') center/cover no-repeat;
   animation: fadeInOut 6s ease-in-out infinite;
   z-index: 0;
     
@@ -544,4 +544,5 @@ body {
 
     .footer-note{ color: var(--muted); font-size: .85rem; text-align: center; margin-top: 8px; }
     a{ color: var(--primary); text-decoration: none; }
+
     a:hover{ text-decoration: underline; }
