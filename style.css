@@ -243,62 +243,50 @@ body{
             }
         }
 
+        
+            
         /* Tablet (768px - 991px) */
-        @media (max-width: 991px) and (min-width: 768px) { Got it 👍 — in this screenshot your navbar is fixed but the content (your banner image + text) is still sliding underneath it.
-
-
-
-.hero-container {
-  padding-top: 70px; /* Pushes all content below navbar */
-}
-
-
-.hero {
-  margin-top: 70px; /* Equal to navbar height */
-}
-
-@media (max-width: 768px) {
-  body {
-    padding-top: 80px; /* or adjust to your navbar’s height */
-  }
-
+@media (max-width: 991px) and (min-width: 768px) {
   .hero-container {
-    margin-top: 80px; /* adjust depending on navbar height in mobile */
+    padding-top: 70px; /* Pushes all content below navbar */
   }
 
-            .main-title {
-                font-size: 3rem;
-                letter-spacing: 0.08em;
-            }
-            .subtitle {
-                font-size: 2.5rem;
-                letter-spacing: 0.12em;
-            }
-            .text-sequence {
-                height: 300px;
-            }
-        }
+  .hero {
+    margin-top: 70px; /* Equal to navbar height */
+  }
 
-        /* Mobile Landscape (576px - 767px) */
-        @media (max-width: 767px) and (min-width: 576px) { @media (max-width: 768px) {
+  .main-title {
+    font-size: 3rem;
+    letter-spacing: 0.08em;
+  }
+  .subtitle {
+    font-size: 2.5rem;
+    letter-spacing: 0.12em;
+  }
+  .text-sequence {
+    height: 300px;
+  }
+}
+
+/* Mobile Landscape (576px - 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
   .hero-container {
     margin-top: 100px; /* adjust depending on navbar height in mobile */
   }
 
-            .main-title {
-                font-size: 2.2rem;
-                letter-spacing: 0.06em;
-                line-height: 1.2;
-            }
-            .subtitle {
-                font-size: 1.8rem;
-                letter-spacing: 0.1em;
-            }
-            .text-sequence {
-                height: 250px;
-            }
-        }
-
+  .main-title {
+    font-size: 2.2rem;
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+  }
+  .subtitle {
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+  }
+  .text-sequence {
+    height: 250px;
+  }
+}
         /* Mobile Portrait (up to 575px) */
         @media (max-width: 575px) {
             .main-title {
@@ -629,6 +617,7 @@ body{
     a{ color: var(--primary); text-decoration: none; }
 
     a:hover{ text-decoration: underline; }
+
 
 
 
