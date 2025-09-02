@@ -532,7 +532,7 @@ body {
     button:active{ transform: translateY(1px); box-shadow: 0 6px 18px rgba(80,135,255,.25); }
 
     .secondary{
-      background: transparent;
+      background: blue;
       color: var(--text);
       border: 1px solid color-mix(in oklab, var(--card), white 15%);
       box-shadow: none;
@@ -595,3 +595,4 @@ body {
       font-size: 0.9rem;
       color: #aaa;
     }
+
